@@ -8,3 +8,13 @@ while 2 > 1:
     todos.append(todo)
     todos.append(todo1)
     print(todos)
+
+#Method two for getting output in a title format
+User_prompt = "Enter a todo:"
+
+todos = []
+while 2 > 1:
+    todo = input(User_prompt)
+    print(todo.title())
+    todos.append(todo)
+    print(todos)
