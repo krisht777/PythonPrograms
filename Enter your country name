@@ -1,0 +1,10 @@
+country_input = input("Enter your country name:")
+
+
+match country_input:
+    case 'USA':
+        print("Hello")
+    case 'India':
+        print("Namaste")
+    case 'Germany':
+        print("Hallo")
