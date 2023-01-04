@@ -1,5 +1,5 @@
 rate = 0.95
 dollar_input = int(input("How many dollars you have got?"))
 D_to_E_Exchange = dollar_input * rate
-print("The amount in euros is:",D_to_E_Exchange)
+print("The amount in euros is:",D_to_E_Exchange,"€")
 
